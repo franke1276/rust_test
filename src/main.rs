@@ -31,6 +31,7 @@ fn test_while(to: i32) -> i64 {
 
 fn test(f: &Fn(i32) -> i64) -> u64 {
     let to = 2000002;
+    let to2 = 2000002;
 
     let start = Instant::now();
 
