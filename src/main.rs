@@ -30,7 +30,7 @@ fn test_while(to: i32) -> i64 {
 }
 
 fn test(f: &Fn(i32) -> i64) -> u64 {
-    let to = 2000002;
+    let to = 4000002;
     let to2 = 2000002;
     let to3 = 2000002;
 
