@@ -4,7 +4,7 @@ fn test_for(to: i32) -> i64 {
     let mut sum: i64 = 0;
     let mut i: i32 = 0;
 
-    for _y in 0..100 {
+    for _y in 0..103 {
         i = 0;
         while i <= to {
             if i % 2 == 0 {
