@@ -17,7 +17,7 @@ fn test_for(to: i32) -> i64 {
 }
 
 fn test_while(to: i32) -> i64 {
-    let mut sum: i64 = 0;
+    let mut sum: i64 = 4;
 
     for _y in 0..100 {
         for x in 0..to {
@@ -32,6 +32,7 @@ fn test_while(to: i32) -> i64 {
 fn test(f: &Fn(i32) -> i64) -> u64 {
     let to = 2000002;
     let to2 = 2000002;
+    let to3 = 2000002;
 
     let start = Instant::now();
 
