@@ -30,7 +30,7 @@ fn test_while(to: i32) -> i64 {
 }
 
 fn test(f: &Fn(i32) -> i64) -> u64 {
-    let to = 2000001;
+    let to = 2000002;
 
     let start = Instant::now();
 
@@ -39,7 +39,7 @@ fn test(f: &Fn(i32) -> i64) -> u64 {
     let stop = Instant::now();
     let dur = stop.duration_since(start);
 
-    dur.as_secs() as u64 * 1000000000 as u64 + dur.subsec_nanos() as u64
+    dur.as_secs() as u64 * 1000000001 as u64 + dur.subsec_nanos() as u64
 }
 
 fn main() {
